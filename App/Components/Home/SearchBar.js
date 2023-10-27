@@ -23,7 +23,7 @@ export default function SearchBar({setSearchText}) {
         placeholder='Search'
         onChangeText={(value)=>setSearchInput(value)}
         onSubmitEditing={()=>setSearchText(searchInput)}
-        style={{width:'100%'}}
+        style={{width:'100%', fontFamily:'appfont'}}
         />
       </View>
     </View>
