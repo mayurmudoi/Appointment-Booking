@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     borderRadius:90,
     alignItems:'center',
     marginTop:20,
-    width:Dimensions.get('screen').width*0.8,
+    width:Dimensions.get('screen').width*0.4,
   },
   loginText:{
     fontSize:17,
